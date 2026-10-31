@@ -82,5 +82,13 @@ int main(void) {
     printf("\nTest 3: P0 requests (0,2,0)\n");
     int r3[R] = {0,2,0};
     request(0, r3);
+
+    printf("\nTest 4: P3 requests (0,1,0)\n");
+    int r4[R] = {0,1,0};
+    request(3, r4);
+
+    printf("\nTest 5: P3 requests (0,2,0)\n");
+    int r5[R] = {0,2,0};
+    request(3, r5);
     return 0;
 }
